@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's Portfolio App</title>
+    <!-- <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/b9d1a2a2ce.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/mediaquery.css">
+</head>
+
+<body>
+
+    <div class="all">
+        <header>
+            <div class="container">
+                <nav>
+                    <ul class="nav-ul">
+                        <li class="nav-li active">
+                            <i class="fa-solid fa-user-check"></i>
+                            <a href="#about" class="link" data-filter="content-about">About</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fa-solid fa-file"></i>
+                            <a href="#resume" class="link" data-filter="content-resume">Resume</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fa-solid fa-computer"></i>
+                            <a href="#portfolio" class="link" data-filter="content-portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <a href="#skills" class="link" data-filter="content-skills">Skills</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            <a href="#contact" class="link" data-filter="content-contact">Let's Talk!</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <!-- =============CONTENT SECTION ======= -->
+        <section>
+            <div class="container main-container">
+                <!-- ===================Profile section=========== -->
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/aj-8.jpg" width="170" alt="profile-pic">
+                    </div>
+                    <div class="profile-content">
+                        <h2>Alexander Msumba</h2>
+                        <p class="text-effect">Web Developer</p>
+                        <div class="profile-icons">
+                            <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="profile-cta my-border">
+                            <div><a href="#">GitHub</a></div>
+                            <div><a href="#">Contact Me</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ================= PROFILE-CONTENT-SECTION========= -->
+                <div class="all-content">
+                    <!-- ======================CONTENT ABOUT======================= -->
+                    <div class="content content-about" id="about">
+                        <div class="content-header">
+                            <h2><span>Abou  T</Table></span> Me</h2>
+                        </div>
+                        <div class="content-details">
+                            <img src="/images/suit.jpg" width="190" alt="image">
+                            <p><span class="text">Hello I'm </span><span class="name"> Alexander Msumba</span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolores nisi delectus
+                                sit dolor dolore ex quibusdam nesciunt rem dicta non quia eum perspiciatis doloribus
+                                officia quas sint dignissimos, libero ipsum modi in excepturi mollitia nulla?</p>
+                        </div>
+                    </div>
+
+                    <!-- ===============CONTENT RESUME================= -->
+                    <div class="content content-resume" id="resume">
+                        <div class="content-header">
+                            <h2><span>My</span> Resume</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="resume">
+                                <div class="my-resume education">
+                                    <div class="title">
+                                        <h3>Education</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific details">
+                                            <p class="year">2011-2014</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    Tech university
+                                                </p>
+                                                <p class="year-desc">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                                                    aliquid! Totam doloremque harum atque pariatur laudantium qui?
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="my-resume experience">
+                                    <div class="title">
+                                        <h3>Experience</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific details">
+                                            <p class="year">2015-2019</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    FrontEnd Developer
+                                                </p>
+                                                <p class="year-desc">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                                                    aliquid! Totam doloremque harum atque pariatur laudantium qui?
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- ======add a line ======== -->
+                            <div class="content-line"></div>
+
+                            <!-- ==========MY SKILLS========= -->
+                            <div class="my-skills">
+                                <div class="title">
+                                    <h3>My Skills</h3>
+                                </div>
+                                <div class="skills">
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>React.js</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>Nodejs</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>PostgreSQL</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>MySQL</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>MongoDB</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="/images/aj-2.jpg" width="90" alt="html">
+                                        <p>GitHub</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- =======================CONTENT PORTFOLIO============= -->
+                    <div class="content content-portfolio" id="portfolio">
+                        <div class="content-header">
+                            <h2><span>My</span> Portfolio</h2>
+                        </div>
+                        <div class="content-details">
+
+                        </div>
+                    </div>
+
+                    <!-- ====================== CONTENT SKILLS============= -->
+                    <div class="content content-skills" id="skills">
+                        <div class="content-header">
+                            <h2><span>My</span> Skills</h2>
+                        </div>
+                        <div class="content-details">
+
+                        </div>
+                    </div>
+
+                    <!-- ==============CONTENT CONTACT============= -->
+                    <div class="content content-contact" id="contact">
+                        <div class="content-header">
+                            <h2><span>Contact</span> Me</h2>
+                        </div>
+                        <div class="content-details">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
